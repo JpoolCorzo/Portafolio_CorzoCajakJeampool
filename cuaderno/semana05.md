@@ -16,3 +16,8 @@ Se instalaron las herramientas necesarias y se configuraron tres proyectos desde
 Se comprendió la importancia de los entornos de desarrollo modernos y cómo React optimiza la creación de interfaces dinámicas a través de componentes reutilizables.
 
 ---
+### **Materiales**
+
+[Sem05 Introduccion React.pdf](../materiales/IntroduccionReact.pdf)
+
+---

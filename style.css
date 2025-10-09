@@ -658,9 +658,12 @@ label {
 }
 
 .profile-img img {
-    border-radius: 50%;
-    height: 202px;
+    display: block;
     width: 202px;
+    height: 202px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .square-text {

@@ -14,3 +14,8 @@ Se desarrollaron pequeños componentes reutilizables en React, implementando com
 Esta semana fue clave para comprender la estructura modular de React y cómo los componentes permiten mantener el código limpio y escalable.
 
 ---
+### **Materiales**
+
+[Sem06 Componentes React.pdf](../materiales/ComponentesenReact.pdf)
+
+---

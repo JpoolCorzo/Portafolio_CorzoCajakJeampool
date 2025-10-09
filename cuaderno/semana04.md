@@ -20,3 +20,7 @@ Se logró crear interfaces funcionales y dinámicas cumpliendo las restricciones
 Esta semana reforzó la capacidad de integración entre diseño y lógica. Además, permitió practicar el uso de eventos, almacenamiento local y manipulación del DOM, consolidando las bases del desarrollo frontend moderno.
 
 ---
+### **Materiales**
+[Sem04 Practica Calificada 03 .pdf](../materiales/PracticaCalificada3.pdf)
+
+---

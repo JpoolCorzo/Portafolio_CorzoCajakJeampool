@@ -22,3 +22,11 @@ Cada integrante trabajó en una rama distinta dentro de un repositorio GitHub, y
 Se fortalecieron los conocimientos en diseño web responsivo, animaciones y control de versiones con Git y GitHub. El trabajo en equipo permitió comprender el flujo colaborativo de un proyecto real.
 
 ---
+### **Materiales**
+[Sem03 Practica Calificada 01 .pdf](../materiales/PracticaCalificada1.pdf)
+
+---
+
+[Sem03 Practica Calificada 02.pdf](../materiales/PracticaCalificada2.pdf)
+
+---

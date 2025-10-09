@@ -21,3 +21,8 @@ Cada grupo presentó su exposición con ejemplos prácticos aplicados en código
 Se comprendió la importancia de la estructura del código y la separación entre contenido (HTML) y presentación (CSS). Además, se aprendió a documentar el contenido técnico de manera formal en formato monografía.
 
 ---
+### **Materiales**
+
+[Sem02 Tarea Academica.pdf](../materiales/TareaAcademica.pdf)
+
+---

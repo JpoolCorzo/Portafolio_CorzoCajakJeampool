@@ -17,3 +17,12 @@ La primera semana permitió comprender la organización del curso, los objetivos
 
 
 ---
+### **Materiales**
+
+[Sem01 Tecnologias Web.pdf](../materiales/Sem01TecnologiasWeb.pdf)
+
+---
+
+[Sem01 Silabo.pdf](../materiales/Silabo.pdf)
+
+---
