@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="node_modules/eins-modal/dist/css/eins-modal.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio | Jeampool Corzo Cajak</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar container">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#about-me">Sobre mi</a></li>
+                    <li><a href="#briefcase">Portafolio</a></li>
+                    <li><a href="#book">Cuaderno</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <section>
+        <div class="hero" id="inicio">
+            <div class="container">
+                <img src="./img/fondo-desktop.jpg" alt="">
+            </div>
+        </div>
+        <div class="profile">
+            <div class="square"></div>
+            <div class="circle-trans"></div>
+            <div class="circle"></div>
+            <div class="profile-img"><img src="./img/robotface.jpg" alt=""></div>
+            <div class="square-text">JEAMPOOL CORZO CAJAK</div>
+            <div class="square-text-2"><span>ING. SISTEMAS | WEB DEVELOPER</span></div>
+            <div class="contact-icon">
+                <a href="https://github.com/jpoolcorzo" target="_blank"><img src="./img/github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/rajdayoda" target="_blank"><img src="./img/linkedin.svg"
+                        alt=""></a>
+                <a data-modal-id="message"><img src="./img/message.svg" alt=""></a>
+            </div>
+            <div class="square-text-3"><a href="#about-me"><span>About me |</span> Sobre Mi</a></div>
+        </div>
+    </section>
+    <div id="briefcase"></div>
+
+    <section class="briefcase">
+        <div class="briefcase-section container">
+            <h2><span>Briefcase |</span> Portafolio</h2>
+            <div class="briefcase-grid">
+                <div><a data-modal-id="pw-portafolio"><img src="./img/pagina-web-portafolio2022.png" alt=""></a></div>
+                <div><a data-modal-id="pw-ropbodactav2"><img src="./img/pagina-web-robodactav2.jpg" alt=""></a></div>
+                <div><a data-modal-id="pw-dacorp"><img src="./img/pagina-web-dacorp.png" alt=""></a></div>
+                <div><a data-modal-id="pw-ionic"><img src="./img/pagina-web-ionic.jpg" alt=""></a></div>
+                <div><a data-modal-id="pw-repar"><img src="./img/pagina-web-repar.jpg" alt=""></a></div>
+                <div><a data-modal-id="pw-neuroPamama"><img src="./img/pagina-web-neuroPanama.jpg" alt=""></a></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="skill container">
+            <div class="knowledge-part">
+                <h2><span>Knowledge |</span> Conocimientos</h2>
+                <div class="knowledge">
+                    <div>
+                        <img src="./img/html-icon.png" alt="">
+                        <h3>HTML</h3>
+                    </div>
+                    <div>
+                        <img src="./img/css-icon.png" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                    <div><img src="./img/js-icon.png" alt="">
+                        <h3>Javascript</h3>
+                    </div>
+                    <!--<div><img src="./img/woo-icon.png" alt="">
+                        <h3>Woo Commerce</h3>
+                    </div> -->
+                    <div><img src="./img/seo-icon.png" alt="">
+                        <h3>Optimización SEO</h3>
+                    </div>
+                    <div><img src="./img/wordpress-icon.png" alt="">
+                        <h3>Wordpress</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tools-part">
+                <h2><span>Dev Tools |</span> Herramientas</h2>
+                <div class="tools">
+                    <div>
+                        <img src="./img/github-icon.png" alt="">
+                        <h3>GitHub</h3>
+                    </div>
+                    <div>
+                        <img src="./img/vsc-icon.png" alt="">
+                        <h3>Visual Studio</h3>
+                    </div>
+                    <div>
+                        <img src="./img/git-icon.png" alt="">
+                        <h3>GIT</h3>
+                    </div>
+                    <div>
+                        <img src="./img/npm-icon.png" alt="">
+                        <h3>NPM</h3>
+                    </div>
+                    <!-- <div>
+                        <img src="./img/webpack-icon.png" alt="">
+                        <h3>Webpack</h3>
+                    </div> -->
+                    <div>
+                        <img src="./img/ga-icon.png" alt="">
+                        <h3>Analytics</h3>
+                    </div>
+                    <div>
+                        <img src="./img/gsc-icon.png" alt="">
+                        <h3>Search Console</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="book"></div>
+
+
+
+
+
+
+    <section>
+        <div class="cuaderno">
+            <div class="titulo">
+                <h2><span>Book |</span> Cuaderno</h2>
+            </div>
+
+            <div class="accordion">
+                <button class="accordion-btn">✔ Semana 1</button>
+                <div class="accordion-content">
+                    <h3>1. Temas aprendidos</h3>
+                    <ul>
+                        <li>Durante la primera semana se realizó la <span>exposición del sílabo</span> del curso
+                            Desarrollo de
+                            Aplicaciones Web a cargo del docente <span>Mg. Jaime Suasnabar Terrel</span>. Se explicó la
+                            estructura
+                            general del curso, los temas que se abordarían durante el semestre y las competencias a
+                            desarrollar.</li>
+                        <li>El docente brindó una <span>introducción a las tecnologías web</span>, explicando los
+                            conceptos de
+                            sistema web, aplicación web, sitio web y página web, así como los principales
+                            <span>protocolos de
+                                comunicación (DNS, TCP/IP, HTTP)</span>.
+                            También se presentaron los <span>roles en el desarrollo de aplicaciones para
+                                Internet</span>,
+                            diferenciando entre desarrollador frontend, backend y fullstack.
+                        </li>
+                    </ul>
+
+                    <span>Finalmente, se introdujo la herramienta Visual Studio Code (VSC), detallando sus elementos de
+                        interfaz, extensiones y atajos de teclado.
+                    </span>
+                    <br>
+                    <br>
+                    <h3>2. Ejercicios de laboratorio - Resultados</h3>
+                    <ul>
+                        <li>Se desarrolló el <span>Laboratorio 01A</span>, donde se exploró el entorno de trabajo de
+                            Visual Studio
+                            Code, configurando extensiones útiles para el desarrollo web y familiarizándose con su uso
+                            práctico.</li>
+                    </ul>
+                    <h3>3. Reflexión</h3>
+
+                    <ul>
+                        <li>La primera semana permitió comprender la organización del curso, los objetivos de
+                            aprendizaje y las herramientas a utilizar. Además, se afianzaron los conocimientos básicos
+                            sobre la web y su funcionamiento, sentando las bases para el desarrollo de aplicaciones web
+                            frontend y backend durante el semestre. </li>
+                    </ul>
+                    <div>
+                        <a class="btn-github" href="https://github.com/jpoolcorzo" target="_blank">Ver en GitHub</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+            <div class="accordion">
+                <button class="accordion-btn">✔ Semana 2</button>
+                <div class="accordion-content">
+                    <h3>1. Temas aprendidos</h3>
+                    <span>Durante la semana 02 se realizaron exposiciones grupales sobre los temas relacionados al
+                        desarrollo web. Se elaboró una monografía siguiendo la estructura establecida por el docente.
+                        Los temas asignados fueron:
+                    </span>
+                    <ul>
+                        <li>HTML Básico</li>
+                        <li>HTML Avanzado (Grupo 1)</li>
+                        <li>CSS Básico (Grupo 2)</li>
+                        <li>CSS Avanzado (Grupo 3)</li>
+                        <li>CSS con Boostrap (Grupo 4)</li>
+                        <li>CSS con Tailwind (Grupo 4)</li>
+                    </ul>
+                    <span>En esta etapa se reforzaron los fundamentos del lenguaje HTML y las propiedades básicas y
+                        avanzadas de CSS, así como el uso de frameworks para optimizar los estilos.</span>
+                    <br>
+                    <br>
+                    <h3>2. Ejercicios de laboratorio - Resultados</h3>
+                    <ul>
+                        <li>Cada grupo presentó su exposición con ejemplos prácticos aplicados en código, mostrando la
+                            estructura del documento HTML, uso de etiquetas semánticas, y aplicación de estilos CSS.
+                        </li>
+                    </ul>
+
+                    <h3>3. Reflexión</h3>
+                    <ul>
+                        <li>Se comprendió la importancia de la estructura del código y la separación entre contenido
+                            (HTML) y presentación (CSS). Además, se aprendió a documentar el contenido técnico de manera
+                            formal en formato monografía.</li>
+                    </ul>
+                    <div>
+                        <a class="btn-github" href="https://github.com/jpoolcorzo" target="_blank">Ver en GitHub</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+            <div class="accordion">
+                <button class="accordion-btn">✔ Semana 3</button>
+                <div class="accordion-content">
+                    <h3>1. Temas aprendidos</h3>
+                    <span>Continuamos con las exposiciones faltantes:</span>
+                    <ul>
+                        <li>JavaScript Básico (Grupo 5)</li>
+                        <li>JavaScript Avanzado (Grupo 6)</li>
+                    </ul>
+                    <span>Además, se desarrolló una práctica de laboratorio enfocada en aplicar HTML y CSS puro para
+                        crear distintas interfaces interactivas.</span>
+                    <br>
+                    <br>
+
+                    <h3>2. Ejercicios de laboratorio - Resultados</h3>
+                    <span>Se realizaron cuatro páginas:</span>
+                    <ol>
+                        <li><span>page01.html: </span>Formulario animado con efectos al enfocar los campos de texto.
+                        </li>
+                        <li><span>page02.html: </span>Card con sliders para manipular colores en tiempo real.</li>
+                        <li><span>page03.html: </span>Página con imágenes interactivas y diseño responsivo.</li>
+                        <li><span>index.html: </span>Página principal con tres cards animados que giran 180° y
+                            redirigen
+                            a las otras páginas.</li>
+                    </ol>
+                    <span>Cada integrante trabajó en una rama distinta dentro de un repositorio GitHub, y el líder
+                        realizó el merge final.</span>
+                    <br>
+                    <br>
+
+                    <h3>3. Reflexión</h3>
+                    <ul>
+                        <li>Se fortalecieron los conocimientos en diseño web responsivo, animaciones y control de
+                            versiones con Git y GitHub. El trabajo en equipo permitió comprender el flujo colaborativo
+                            de un proyecto real.</li>
+                    </ul>
+                    <div>
+                        <a class="btn-github" href="https://github.com/jpoolcorzo" target="_blank">Ver en GitHub</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+
+            <div class="accordion">
+                <button class="accordion-btn">✔ Semana 4</button>
+                <div class="accordion-content">
+                    <h3>1. Temas aprendidos</h3>
+                    <span>Se realizaron dos prácticas principales:</span>
+                    <ol>
+                        <li>Diseño con Tailwind CSS:</li>
+                        <ul>
+                            <li>Creación de listas de mensajes con estilos modernos y diseño responsivo.</li>
+                            <li>Cards de ciudades y playas del Perú, aplicando flexbox y grid.</li>
+                            <li>Implementación de efectos hover y manejo de media queries.</li>
+                        </ul>
+
+                        <li>JExamen Práctico — Aula Virtual y Sorteo de Equipos (HTML, CSS, JS puro):</li>
+                        <ul>
+                            <li>Implementación de una ruleta dinámica con funcionalidades interactivas
+                                (localStorage, teclas de control, resaltado y reinicio).</li>
+                            <li>Desarrollo de un sorteo aleatorio de equipos con exportación y manipulación de
+                                datos.</li>
+                        </ul>
+                    </ol>
+                    <br>
+
+                    <h3>2. Ejercicios de laboratorio - Resultados</h3>
+                    <ul>
+                        <li>Los proyectos fueron versionados en GitHub y entregados mediante ramas individuales.</li>
+                        <li>Se logró crear interfaces funcionales y dinámicas cumpliendo las restricciones de usar solo
+                            tecnologías puras sin librerías externas.</li>
+                    </ul>
+                    <br>
+
+                    <h3>3. Reflexión</h3>
+                    <ul>
+                        <li>Esta semana reforzó la capacidad de integración entre diseño y lógica. Además, permitió
+                            practicar el uso de eventos, almacenamiento local y manipulación del DOM, consolidando las
+                            bases del desarrollo frontend moderno.</li>
+                    </ul>
+                    <div>
+                        <a class="btn-github" href="https://github.com/jpoolcorzo" target="_blank">Ver en GitHub</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+            <div class="accordion">
+                <button class="accordion-btn">✔ Semana 5</button>
+                <div class="accordion-content">
+                    <h3>1. Temas aprendidos</h3>
+                    <span>Introducción al desarrollo con React.js:</span>
+                    <ul>
+                        <li>Qué es React y su historia.</li>
+                        <li>Instalación de Node.js y entorno de desarrollo.</li>
+                        <li>Creación de proyectos en <span>React</span>, <span>Vite-React</span>y <span>Next.js</span>
+                        </li>
+                        <li>Estructura de carpetas y funcionamiento de JSX.</li>
+                    </ul>
+                    <br>
+
+                    <h3>2. Ejercicios de laboratorio - Resultados</h3>
+                    <span>Se instalaron las herramientas necesarias y se configuraron tres proyectos desde cero,
+                        explorando las diferencias en estructura y configuración entre React, Vite y Next.</span>
+                    <br>
+                    <br>
+
+                    <h3>3. Reflexión</h3>
+                    <ul>
+                        <li>Se comprendió la importancia de los entornos de desarrollo modernos y cómo React optimiza la
+                            creación de interfaces dinámicas a través de componentes reutilizables.</li>
+                    </ul>
+                    <div>
+                        <a class="btn-github" href="https://github.com/jpoolcorzo" target="_blank">Ver en GitHub</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+            <div class="accordion">
+                <button class="accordion-btn">✔ Semana 6</button>
+                <div class="accordion-content">
+                    <h3>1. Temas aprendidos</h3>
+                    <ul>
+                        <li>Concepto de <span>Componentes</span> y su reutilización.</li>
+                        <li>Sintaxis <span>JSX</span> y tipado con <span>TypeScript</span></li>
+                        <li>Manejo de <span>estilos en React</span> (CSS, módulos, inline styles).</li>
+                    </ul>
+                    <br>
+
+                    <h3>2. Ejercicios de laboratorio - Resultados</h3>
+                    <span>Se desarrollaron pequeños componentes reutilizables en React, implementando comunicación
+                        entre
+                        ellos y aplicando estilos personalizados.</span>
+                    <br>
+
+                    <h3>3. Reflexión</h3>
+                    <a>Esta semana fue clave para comprender la estructura modular de React y cómo los componentes
+                        permiten mantener el código limpio y escalable.</a>
+                    <br>
+                    <br>
+                    <div>
+                        <a class="btn-github" href="https://github.com/jpoolcorzo" target="_blank">Ver en GitHub</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+            <div class="accordion">
+                <button class="accordion-btn">✔ Semana 7</button>
+                <div class="accordion-content">
+                    <h3>1. Temas aprendidos</h3>
+                    <span>Creación de aplicaciones prácticas con React utilizando componentes funcionales.</span>
+                    <br>
+
+                    <h3>2. Ejercicios de laboratorio - Resultados</h3>
+                    <ol>
+                        <li>App con 7 componentes, cada uno representando una sección diferente.</li>
+                        <li>Comunicación de datos entre componentes anidados.</li>
+                        <li>Envío de datos del hijo al padre.</li>
+                        <li>Comunicación entre componentes hermanos.</li>
+                        <li>Renderización de una tabla de estudiantes con estilos CSS.</li>
+                    </ol>
+                    <br>
+
+                    <h3>3. Reflexión</h3>
+                    <span>Se aplicó la lógica de componentes y el flujo de datos (props y state) en React.
+                        Aprendí cómo organizar mejor un proyecto y cómo React permite una mayor modularidad en
+                        comparación con HTML y JS tradicionales.</span>
+                    <br>
+                    <br>
+                    <div>
+                        <a class="btn-github" href="https://github.com/jpoolcorzo" target="_blank">Ver en GitHub</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+        </div>
+        <script src="script.js"></script>
+
+    </section>
+    <section class="about" id="about-me">
+        <div class="about-flex container">
+            <div class="about-info">
+                <p>Mi nombre es Jeampool Corzo Cajak, Soy estudiante de ingeniería de Sistemas, Frontend Developer
+                    enfocado a aplicaciones y desarrollo web. Pienso que con algo he de
+                    aportar. Soy muy sociable y extrovertido, me gusta la música y soy amante del deporte.</p>
+                <p><br>He trabajo en diferentes proyectos web con diversas tecnologías. Ademas de tener un poco de
+                    experiencia con diferentes trabajos en atencion al cliente y ahora me he enfocado más al Desarrollo
+                    de aplicaciones web. Me mantengo siempre actualizado ya que me gusta aprender cosas nuevas.</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/rajdayoda" target="_blank"><img src="./img/github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/rajdayoda" target="_blank"><img src="./img/linkedin.svg"
+                        alt=""></a>
+                <!-- <a href="https://www.youtube.com/channel/UCrBj22EAjbwih60lqZI-zDA/featured" target="_blank"><img
+                        src="./img/youtube.svg" alt=""></a> -->
+                <a data-modal-id="message"><img src="./img/message.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>ⓒ 2025 | Designed by Jeampool</p>
+    </footer>
+
+
+    <!-- Modal section -->
+
+    <!-- <div id="myModal" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+      <div class="eins-modal-close"></div>
+  
+      EJEMPLO DE PRUEBA
+      
+      <button class="eins-modal-close-button">OK</button>
+    </div>
+  </div> -->
+    <!-- Modal section -->
+
+    <div id="pw-portafolio" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="/img/2pagina-web-portafolio2022.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>Portafolio Web Personal, Construido con HTML, CSS Y JS. <br>Se usó librerias de npm y se
+                        optimizó la página con webpack. Se uso estructura SEO básica para la semántica en
+                        buscadores
+                    </p>
+                    <p> Se documentó el proceso paso a paso de como crear este portafolio desde cero, puedes ver
+                        el video desde el enlace del canal de youtube.
+                    </p>
+                    <p>También puedes acceder a él desde el repositorio de github</p>
+                    <div class="eins-modal-text-2">
+                        <span>ENLACE:</span><a href="/">https://rajdayoda.com</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/html-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+                            <img src="/img/js-icon.png" alt="">
+                            <img src="/img/npm-icon.png" alt="">
+                            <img src="/img/webpack-icon.png" alt="">
+                            <img src="/img/seo-icon.png" alt="">
+                            <div>
+                                <a href="https://www.youtube.com/watch?v=s-oY-1kRAcA" target="blank">
+                                    <img src="./img/youtube.icon.png" alt="">
+                                    <span>/ Ver el paso a paso de como se construyó este portafolio </span></a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/rajdayoda/portafolio2022" target="blank">
+                                    <img src="./img/github-icon.png" alt="">
+                                    <span>/ Ver código de este portafolio desde el repositorio</span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="pw-ropbodactav2" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="/img/2pagina-web-robodacta.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>Robodacta Tienda de Robótica didática México. Actualización 2022
+                        E-commerce de artículos de robótica para proyectos de ingeniería
+                        motores, sensores, tarjetas, kit de robótica y más.</p>
+                    <p>Actualmente se encuentra en desarrollo con funcionalidad de puntos
+                        de recompensa, emails personalizados en los pedidos. Y se implementarán aplicaciones de
+                        seguimiento para evaluar movimiento en ventas. Así como estructura SEO para
+                        posicionamiento en buscadores.
+                    </p>
+                    <div class="eins-modal-text-2">
+                        <span>ENLACE:</span><a href="https://tienda.robodacta.mx"
+                            target="_blank">https://tienda.robodacta.mx</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/wordpress-icon.png" alt="">
+                            <img src="/img/woo-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+                            <img src="/img/seo-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="pw-dacorp" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="/img/2pagina-web-dacorp.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p> Dacorp Group- Centro autorizado Panasonic.<br> Creación de página coorporativa.<br>Es
+                        una empresa que ofrece servicios de instalación, mantenimiento y venta de repuestos
+                        Panasonic. </p>
+                    <p> Optimización con SEO e implementación de SEM para posicionamiento</p>
+                    <div class="eins-modal-text-2">
+                        <span>ENLACE:</span><a href="https://dacorp.net" target="_blank">https://dacorp.net</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/html-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+                            <img src="/img/js-icon.png" alt="">
+                            <img src="/img/seo-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="pw-ionic" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="pw-content">
+                <div class="eins-modal-close"></div>
+                <div class="eins-modal-preview"><img src="/img/2pagina-web-ionic.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p> Página corporativa de Ionic Pro- Página de lanzamiento de producto Ionic Uv Purifier.
+                    </p>
+                    <p> Un purificador por UV (luz ultravioleta) que se coloca en los aires acondicionados y
+                        elimina virus y bacterias presentes en el ambiente</p>
+                    <div class="eins-modal-text-2">
+                        <span>Enlace:</span> <a href="https://ionicpro.net" target="_blank">https://ionicpro.net</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Utilizadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/html-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pw-repar" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="pw-content">
+                <div class="eins-modal-close"></div>
+                <div class="eins-modal-preview"><img src="/img/2pagina-web-repar.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>Repar Ind. Sa, Página coorporativa para empresa panameña enfocada en reparaciónes y
+                        sistemas industriales. </p>
+                    <p> Tienen dos ramas importantes. Instalación de Energía Solar e Instalación, mantenimiento
+                        y reparación de Tecles y montacargas.</p>
+                    <div class="eins-modal-text-2">
+                        <span>Enlace:</span> <a href="https://reparind.com" target="_blank">https://reparind.com</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Utilizadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/wordpress-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pw-neuroPamama" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="pw-content">
+                <div class="eins-modal-close"></div>
+                <div class="eins-modal-preview"><img src="/img/2pagina-web-neuroPanama.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>NeuroPanama, página coorporativa de la empresa en colaboración con otro diseñador web.
+                    </p>
+                    <p>Clínica enfocada a la neuropsicología. Tratamientos, asesorias y orientación para mejorar
+                        el funcionamiento cognitivo de la persona. </p>
+                    <div class="eins-modal-text-2">
+                        <span>Enlace:</span> <a href="https://clinicaneuropanama.com/"
+                            target="_blank">https://clinicaneuropanama.com</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Utilizadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/wordpress-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="message" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <form class="form" action="https://formspree.io/f/mwkyvalb" method="POST">
+                <label>Tu Correo Electrónico:
+                    <input type="email" name="_replyto">
+                </label>
+
+                <label>Tu Mensaje:
+                    <textarea name="message"></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script> -->
+
+</body>
+
+</html>
