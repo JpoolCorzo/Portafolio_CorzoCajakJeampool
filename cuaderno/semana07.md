@@ -15,3 +15,8 @@ Se aplicó la lógica de componentes y el flujo de datos (props y state) en Reac
 Aprendí cómo organizar mejor un proyecto y cómo React permite una mayor modularidad en comparación con HTML y JS tradicionales.
 
 ---
+### **Materiales**
+
+[Sem07 Hooks.pdf](../materiales/Hooks.pdf)
+
+---
