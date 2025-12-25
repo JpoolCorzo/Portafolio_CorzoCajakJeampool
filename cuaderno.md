@@ -133,3 +133,160 @@ Se aplicó la lógica de componentes y el flujo de datos (props y state) en Reac
 Aprendí cómo organizar mejor un proyecto y cómo React permite una mayor modularidad en comparación con HTML y JS tradicionales.
 
 ---
+
+## 🗓 Semana 08
+
+### **Temas aprendidos**
+Desarrollo de aplicaciones web con React y Vite aplicando componentes, manejo de estado y persistencia de datos en Local Storage.
+Diseño de sistemas orientados a procesos reales de evaluación, acreditación y certificación digital.
+
+### **Ejercicios de laboratorio - Resultados**
+1. Implementación de un sistema de certificación en línea utilizando React y Vite.
+2. Creación de un módulo para el comité técnico con edición y gestión de exámenes.
+3. Gestión de preguntas de opción múltiple y preguntas abiertas.
+4. Definición de criterios de aprobación y evaluación automática de exámenes.
+5. Persistencia de exámenes, usuarios y resultados en Local Storage.
+6. Desarrollo de la interfaz para rendición de exámenes por los usuarios.
+7. Control de intentos únicos y registro de resultados por usuario.
+8. Generación de certificados digitales con código único y URL pública.
+9. Gestión de usuarios registrados con validaciones y control de duplicados.
+10. Creación de un currículum digital vinculado a certificaciones obtenidas.
+
+### **Reflexión**
+La evaluación parcial permitió aplicar de forma práctica los conocimientos adquiridos en React, enfocándose en el desarrollo de un sistema completo y funcional.
+Aprendí a estructurar aplicaciones escalables, gestionar el estado de la aplicación y simular procesos reales de certificación, fortaleciendo mis habilidades en diseño de interfaces y lógica de negocio.
+
+---
+
+## 🗓 Semana 09
+
+### **Temas aprendidos**
+Arquitecturas de aplicaciones web (MPA, SPA, arquitecturas multicapa y hexagonal), funcionamiento del Server Side, servidores web, hosting y cloud computing.
+Instalación y configuración de Apache Tomcat, uso de Java Server Pages (JSP) y gestión de dependencias con Maven.
+
+### **Ejercicios de laboratorio - Resultados**
+1. Instalación y configuración de OpenJDK (Jakarta).
+2. Configuración de las variables de entorno JAVA_HOME y PATH.
+3. Instalación y verificación del servidor web Apache Tomcat.
+4. Comprobación del funcionamiento de Java y del compilador javac.
+5. Creación y configuración de un proyecto web con JSP en IntelliJ IDEA.
+6. Comprensión del uso de Maven para la gestión de dependencias y el ciclo de vida del proyecto.
+
+### **Reflexión**
+Se aplicó la lógica de componentes y el flujo de datos (props y state) en React.  
+Aprendí cómo organizar mejor un proyecto y cómo React permite una mayor modularidad en comparación con HTML y JS tradicionales.
+
+---
+
+## 🗓 Semana 10
+
+### **Temas aprendidos**
+Uso avanzado de Jakarta Server Pages (JSP) con Apache Tomcat, sintaxis JSP (scriptlets, expresiones, directivas y acciones), objetos implícitos y aplicación del patrón MVC.
+Introducción al desarrollo backend con Spring Framework y Spring Boot para la creación de APIs REST, utilizando Maven para la gestión de dependencias.
+
+### **Ejercicios de laboratorio - Resultados**
+1. Creación de aplicaciones web dinámicas utilizando JSP.
+2. Implementación de formularios JSP con métodos GET y POST.
+3. Uso de scriptlets y objetos implícitos para el procesamiento de datos.
+4. Aplicación del patrón MVC en proyectos JSP.
+5. Creación de un proyecto Spring Boot utilizando Maven.
+6. Configuración de conexión a base de datos MySQL mediante application.properties.
+7. Desarrollo de una API REST aplicando operaciones CRUD.
+8. Pruebas de endpoints utilizando Postman.
+
+### **Reflexión**
+Esta semana fortalecí mis conocimientos en el desarrollo de aplicaciones web dinámicas utilizando JSP y el patrón MVC.
+Además, comprendí la importancia de Spring Boot para la creación de APIs REST modernas, logrando una mejor organización del proyecto y una comunicación eficiente entre el backend y otros servicios.
+
+---
+
+## 🗓 Semana 13
+
+### **Temas aprendidos**
+Introducción al desarrollo backend con PHP y el framework Laravel.
+Instalación y configuración del entorno de desarrollo, uso de Composer y aplicación del patrón MVC mediante rutas, controladores, vistas Blade y conexión a bases de datos MySQL.
+
+### **Ejercicios de laboratorio - Resultados**
+1. Instalación y configuración de Apache y PHP en el sistema operativo.
+2. Creación de un proyecto Laravel utilizando Composer.
+3. Configuración de la conexión a base de datos MySQL mediante el archivo .env.
+4. Creación del modelo Estudiante con migraciones.
+5. Ejecución de migraciones utilizando php artisan migrate.
+6. Implementación de rutas y controladores para el registro de estudiantes.
+7. Desarrollo de formularios utilizando vistas Blade y Tailwind CSS.
+8. Registro de información en la base de datos utilizando Eloquent ORM.
+
+### **Reflexión**
+Esta semana permitió comprender el funcionamiento del backend con PHP y Laravel aplicando el patrón MVC.
+Aprendí a trabajar con migraciones, controladores y vistas Blade, así como a utilizar herramientas como Composer y Artisan para agilizar el desarrollo de aplicaciones web modernas y escalables.
+
+---
+
+## 🗓 Semana 14
+
+### **Temas aprendidos**
+Introducción al lenguaje Python y su sintaxis básica.
+Desarrollo backend con el framework Flask, uso de PIP para la gestión de dependencias, aplicación de buenas prácticas de codificación (PEP-8), uso de plantillas Jinja2 y conexión a bases de datos MySQL.
+
+### **Ejercicios de laboratorio - Resultados**
+1. Instalación y verificación del entorno de desarrollo Python.
+2. Ejecución de programas básicos utilizando la sintaxis de Python.
+3. Aplicación de programación orientada a objetos con clases y herencia.
+4. Gestión de dependencias mediante el gestor de paquetes PIP.
+5. Creación de una aplicación web utilizando Flask.
+6. Definición de rutas y manejo de métodos HTTP GET y POST.
+7. Implementación de formularios HTML con plantillas Jinja2.
+8. Conexión de la aplicación Flask a una base de datos MySQL.
+9. Registro de datos enviados desde formularios hacia la base de datos.
+
+### **Reflexión**
+Esta semana me permitió fortalecer mis conocimientos en Python y comprender cómo desarrollar aplicaciones backend utilizando Flask.
+Aprendí a organizar el código de manera más eficiente, aplicar buenas prácticas de programación y generar contenido dinámico, sentando bases sólidas para el desarrollo de aplicaciones web modernas y escalables.
+
+---
+
+## 🗓 Semana 15
+
+### **Temas aprendidos**
+Fundamentos de los sistemas inteligentes, agentes inteligentes y conceptos básicos de redes neuronales y deep learning.
+Implementación de sistemas expertos y lógica difusa, así como la integración de modelos de lenguaje a gran escala (LLM) en aplicaciones web desarrolladas con Python y Flask.
+
+### **Ejercicios de laboratorio - Resultados**
+1. Diseño de un sistema experto utilizando reglas IF–THEN en Python.
+2. Implementación de clases con herencia para la simulación de pacientes y diagnósticos.
+3. Desarrollo de algoritmos de toma de decisiones basados en síntomas.
+4. Implementación de un sistema de control difuso para la climatización.
+5. Uso de librerías de lógica difusa como scikit-fuzzy.
+6. Desarrollo de una aplicación web con Flask para la interacción con un modelo de IA.
+7. Integración de un modelo de lenguaje (LLM) como Llama 3.
+8. Creación de una interfaz web para un chat inteligente utilizando HTML, CSS y JavaScript.
+9. Gestión de la comunicación cliente-servidor mediante API REST.
+
+### **Reflexión**
+Esta semana permitió comprender cómo los sistemas inteligentes combinan razonamiento, aprendizaje y toma de decisiones.
+Aprendí a implementar sistemas expertos, lógica difusa y a integrar inteligencia artificial generativa en aplicaciones web reales, fortaleciendo mis conocimientos en backend y sistemas inteligentes.
+
+---
+
+## 🗓 Semana 16
+
+### **Temas aprendidos**
+Integración completa de una aplicación web inteligente combinando backend con Python (Flask), base de datos MySQL y autenticación mediante JWT.
+Desarrollo de un frontend moderno con React y aplicación de modelos de Inteligencia Artificial para el análisis de texto.
+
+### **Ejercicios de laboratorio - Resultados**
+1. Desarrollo de una API REST en Flask con rutas protegidas mediante JWT.
+2. Implementación de registro y autenticación de usuarios (login y register).
+3. Creación de la ruta /analyze-text para el procesamiento de texto con un modelo de IA.
+4. Integración de un modelo de IA para análisis de sentimientos o resumen de texto.
+5. Conexión del backend con base de datos MySQL.
+6. Desarrollo del frontend en React con componentes de autenticación y análisis.
+7. Gestión del token JWT en el almacenamiento local del navegador.
+8. Visualización de resultados de la IA en un dashboard interactivo.
+9. Aplicación de principios de diseño responsive y experiencia de usuario.
+
+### **Reflexión**
+La evaluación final permitió integrar todos los conocimientos adquiridos durante el curso en una sola aplicación funcional.
+Aprendí a desarrollar soluciones web completas, seguras y escalables, reforzando la importancia de la integración entre frontend, backend e inteligencia artificial, así como el trabajo colaborativo y la documentación del código.
+---
+
